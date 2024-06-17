@@ -1,0 +1,109 @@
+.list-contain{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 30px;
+    border: 5px solid black;
+    width: 400px;
+    height: 725px;
+}
+.list-header{
+    line-height: 30px;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    background-color:rgba(128, 128, 128, 0.228);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.list-content{
+        /* text-align: center; */
+        min-height: 600px;
+        /* line-height: 60px; */
+        color: #fff;
+        padding-top: 5px;
+        /* background-color: #0958d9; */
+}
+.list-content-header{
+    text-align: center;
+    max-height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    color:black;
+}
+.list-content-chatlist-ul{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color:rgba(128, 128, 128, 0.073);
+}
+.list-content-chatlist-ul-li{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 400px;
+}
+.list-content-chatlist-picture{
+    line-height: 60px;
+    margin-right: 20px;
+}
+.list-content-chatlist-msg{
+    height: 60;
+    display: flex;
+    flex-direction: column;
+
+}
+.list-content-chatlist-msg-name{
+    text-align: left;
+    font-size: medium;
+    line-height: 30px;
+    color: black;
+    padding-top: 2px;
+}
+.list-content-chatlist-msg-content{
+    text-align: left;
+    font-size: small;
+    line-height: 30px;
+    color: rgba(128, 128, 128, 0.645);
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 200px;
+    
+}
+.list-personPicture{
+    background-color: pink;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+
+}
+.list-content-chatlist-time{
+    color: rgba(128, 128, 128, 0.645);
+    font-size: small;
+    line-height: 60px;
+    width: 200px;
+    height: 40px;
+    font-size: 40;
+}
+.list-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    color: #fff;
+    background-color:rgba(128, 128, 128, 0.228);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 20px;
+}
+.list-footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-footer-wechat{
+    color:rgba(47, 255, 54, 0.786)
+}

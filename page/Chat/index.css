@@ -1,0 +1,130 @@
+.chat-contain{
+        display: flex;
+        flex-direction: column;
+        height: auto; /* 设置高度为视口高度,确保整体居中 */
+        border-radius: 30px;
+        border: 5px solid black;
+        width: 400px;
+}
+.chat-header {
+    line-height: 30px;
+    width: auto;
+    height: 30px;
+    background-color: transparent;
+    padding: 10px;
+    background-color:rgba(128, 128, 128, 0.228);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  .chat-content {
+    text-align: center;
+    min-height: 600px;
+    line-height: 120px;
+    color: #fff;
+    padding-top: 5px;
+    /* background-color: #0958d9; */
+  }
+  
+  .chat-footer {
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    color: #fff;
+    background-color:rgba(128, 128, 128, 0.228);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 20px ;
+  }
+  .headerTime{
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+  }
+ .header-isTime{
+  font-size: 20px;
+ }
+  .header-isSound{
+    padding-left: 5px;
+  }
+  .header-left-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 5px ;
+    /* height: 30px; */
+  }
+  .chat-content-header{
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    color:black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.228);
+  }
+  .chat-content-msg{
+    height: 540px;
+    color: black;
+    overflow-y: auto; /* 垂直滚动 */
+  }
+  .chat-msgLayout{
+    margin-top: 0;
+  }
+  .chat-content-header-backicon{
+    color:black;
+    padding-left: 8px;
+   
+  }
+  .chat-content-header-chatName{
+    color:black;
+    font-size: 20px;
+  }
+  .chat-content-header-moreMsg{
+    color:black;
+    size: 5em;
+    padding-right: 8px;
+  }
+  .chat-footer-inputMsg{
+   height: 35px;
+   border-radius: 5px;
+  }
+
+  .chat-footer-faceEffect{
+    margin:2px;
+    margin-top: -100px;
+  }
+  .chat-footer-buttonSend{
+    height: 40px;
+    line-height: 0px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 3px;
+    font-size: 18px;
+    font-weight: 350;
+    color: white;
+    border: transparent;
+  }
+  .header-battery-icon{
+    width: 25px;
+    height: 25px;
+  }
+  .header-wifi-icon{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+  }
+  .emojiPanel{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 1;
+  }
+  .chat-footer-emojiDropdown{
+    height: 60px;
+  }
+  .rowMoal{
+    width: 350px;
+  }

@@ -1,0 +1,52 @@
+.msgLayleft{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    word-wrap: break-word;
+    background-color:#9898;
+    height: fit-content;
+    max-width: 300px;
+    line-height: 1.2;
+    min-width: 20px;
+    min-height: 18px;
+}
+
+.msgLay-left:after {
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -13px;
+  top:5px;
+  border: 7px solid;
+  border-color:transparent #9898987c transparent  transparent ;
+}
+
+.spaceAvatarleft{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.personPictureleft{
+    margin-right: 10px;
+}
+.eventlayleft{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5px;
+    
+}
+.timeLayleft{
+    display: flex;
+    justify-content:center;
+    line-height: 30px;
+    font-size: small;
+    
+}
