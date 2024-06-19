@@ -38,7 +38,7 @@ function Chat({msgData, setMsgData}) {
     console.log("发", msgData);
     setInputValue("");
   }
-  //接受消息
+  //接收消息
   function handleReceiveMsg() {
     setLastMsg(inputValue);
     setLastTime(getCurrentTime());
